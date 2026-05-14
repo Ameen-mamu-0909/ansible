@@ -1,0 +1,20 @@
+- name: "Ameen"
+  dob: "01-01-2004"
+  age: 21
+  address:
+   # object
+  - doorno: 1-23
+    street: "gandhi nagar"
+    city: hyderbad
+    pin: 6-210
+    type: current
+
+  - doorno: 1-23
+    street: "gandhi nagar"
+    city: hyderbad
+    pin: 6-210
+    type: prem
+  skills:
+  - java:
+  -cloud:
+  -devops:  
