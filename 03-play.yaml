@@ -1,0 +1,8 @@
+- name: install nginx server
+  host: local
+  tasks:
+  - name: install nginx 
+    ansible.builtin.yum:
+     state: present
+
+    
