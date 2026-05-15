@@ -1,5 +1,6 @@
 - name: play level variabes
-  hosts: frontend
+  hosts: local
+  connection: local
   vars:
    course: Ansible
    duration: 5hr
