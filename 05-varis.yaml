@@ -1,0 +1,15 @@
+- name: play with variables
+  hosts: localhost
+  connection: local
+
+  vars:
+    course: github & git bash
+    duration: 2hr
+    Trainer: sivakumar reddy
+  tasks:
+    vars:
+      course: aws
+- name: print the course details
+  ansible.builtin.debug:
+  msg: "course name is: {{ course }}, duration:{{ duration }}, Trainer:{{ Trainer}}"  
+      
