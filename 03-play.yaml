@@ -8,7 +8,7 @@
   tasks:
   - name: satrt the course
     ansible.builtin.debug:
-    msg: "course name is: {{ COUTRSE }}, duration: {{ DURATION }}, trainer: {{ TRAINER }}""
+    msg: "course name is: {{ COUTRSE }}, duration: {{ DURATION }}, trainer: {{ TRAINER }}"
 
 
 
