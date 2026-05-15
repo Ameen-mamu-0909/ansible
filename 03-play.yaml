@@ -1,8 +1,14 @@
-- name: install nginx server
-  host: local
+- name: play level  variables
+  hosts: local
+  connection: local
+  vars:
+   COURSE: AWS
+   DURATION: 10HRS
+   TRAINER: sivakumarreddy
   tasks:
-  - name: install nginx 
-    ansible.builtin.yum:
-     state: present
+  - name: satrt the course
+    ansible.builtin.debug:
+    msg: "course name is: {{ COUTRSE }}, duration: {{ DURATION }}, trainer: {{ TRAINER }}""
 
-    
+
+
