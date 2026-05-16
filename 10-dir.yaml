@@ -3,6 +3,6 @@
 
   tasks:
   - name: create folder
-    ansible.buintin.file:
+    ansible.builtin.file:
       path: /tmp/ameen
       state: directory
