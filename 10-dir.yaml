@@ -1,0 +1,8 @@
+- name: create directory
+  hosts: local
+
+  tasks:
+  - name: create folder
+    ansible.buintin.file:
+    src: /tmp/ameen
+    state: directory
