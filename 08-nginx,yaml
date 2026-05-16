@@ -1,4 +1,4 @@
-- name: start nginx server
+- name: ping the server
   hosts: local
   connection: local
   
