@@ -4,5 +4,5 @@
   tasks:
   - name: create sample file
     ansible.builtin.file:
-    path: '/tmp/mamu.txt'
-    state: touch
+      path: /tmp/mamu.txt
+      state: touch
