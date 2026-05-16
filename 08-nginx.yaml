@@ -3,9 +3,8 @@
   connection: local
   
   tasks:
-   name: start service 
-   ansible.builtin.service:
-    name: nginx
-    state: installed
-    enable: yes
-  
+    - name: start service
+      ansible.builtin.service:
+        name: nginx
+        state: started
+        enabled: yes 
