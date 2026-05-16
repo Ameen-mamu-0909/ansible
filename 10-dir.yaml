@@ -4,5 +4,5 @@
   tasks:
   - name: create folder
     ansible.buintin.file:
-    src: /tmp/ameen
-    state: directory
+      src: /tmp/ameen
+      state: directory
