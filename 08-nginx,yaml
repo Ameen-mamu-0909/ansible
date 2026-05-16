@@ -1,0 +1,11 @@
+- name: start nginx server
+  hosts: local
+  connection: local
+  
+  tasks:
+   name: start service 
+   ansible.builtin.service:
+    name: nginx
+    state: installed
+    enable: yes
+  
